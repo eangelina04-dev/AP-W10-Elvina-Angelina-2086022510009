@@ -1,24 +1,5 @@
 4.3h Under what conditions would a pre-order and a breadth-first traversal be the same? 
-= Pertama-tama pengertian pre-order traversal adalah cara berpindah antara nodes dengan cara mengunjungi node paling kiri hingga anak-anaknya. Sedangkan pengertian breadth-first traversal adalah cara berpindah antara nodes dengan cara mengunjungi node per level hingga akhir. Jadi kapan kondisinya sama adalah ketika root node tidak bercabang sama sekali (linear) atau ketika root node memiliki anak tapi semuanya adalah leaf nodes (tidak memiliki anak) atau ketika hanya ada satu node sebagai root dan leaf. Visualisasinya:
-1.  1
-   / \
-  2   3
-Pre-order: 1 2 3
-Breadth-first: 1 2 3
-
-2.  1
-    |
-    2
-    |
-    3
-    |
-    4
-Pre-order: 1 2 3 4
-Breadth-first: 1 2 3 4
-
-3. 1
-Pre-order: 1 
-Breadth-first: 1 
+= Pertama-tama pengertian pre-order traversal adalah cara berpindah antara nodes dengan cara mengunjungi node paling kiri hingga anak-anaknya. Sedangkan pengertian breadth-first traversal adalah cara berpindah antara nodes dengan cara mengunjungi node per level hingga akhir. Jadi kapan kondisinya sama adalah ketika root node tidak bercabang sama sekali (linear) atau ketika root node memiliki anak tapi semuanya adalah leaf nodes (tidak memiliki anak) atau ketika hanya ada satu node sebagai root dan leaf. 
 
 4.3i Suppose a directory structure has N files stored in n directories.  Answer the following questions: 
 a. What is the run time of a traversal that prints out the directory names? 
