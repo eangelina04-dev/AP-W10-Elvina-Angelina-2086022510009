@@ -21,7 +21,7 @@ public class question4_3f {
 
         if (currentDepth == targetDepth) {
             System.out.print(node.data + " ");
-            return; // jangan turun lagi
+            return; 
         }
 
         for (TreeNode child : node.children) {
